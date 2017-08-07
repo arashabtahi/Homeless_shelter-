@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+
+
+<link rel="stylesheet" type="text/css" href="css/homeless.css">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/full-slider.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+            </button>
+            <img src="css/logo.jpg">
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="index.html">Home</a></li>
+				<li><a href="#info">About</a></li>
+				<li><a href="#contact">Contact Us</a></li>
+				<li><a href="">Event Calendar</a></li>
+
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="container" id="topContainer">
+   <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('css/pic2.jpg');"></div>
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('css/pic4.jpg');"></div>
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('css/pic3.jpg');"></div>
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('css/pic1.jpg');"></div>
+                <div class="carousel-caption">
+
+                </div>
+
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('css/pic5.jpg');"></div>
+                <div class="carousel-caption">
+
+                </div>
+
+                </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </header>
+
+</div>
+
+<div class="container contentContainer" id="info">
+  <div class="jumbotron">
+  	<h1>Diversified Perfection</h1>
+  	<p class="lead">Our mission statement-
+Our organization strives to understand the  need of underserved populations including homelessness, low income families and children with special needs in an effort to equip them with necessary items for survival and maintaining. The items are included, but not limited to, basic necessities, hygiene products, esteem building, resources and referrals to help better their current situations. We are compassionately dedicated to improving the lives of those in need.
+
+Diversified Perfection means we are all diverse and fearfully and wonderfully made in God's image so that has to be perfection! Understanding diversity means we have to understand that we as a people are different due to our cultural background, race, religion and ethnicity but we all live in the same world and we all can learn from eachother. </p>
+
+
+<p>Blessings,
+Tashara Callaway </p>
+  </div>
+</div>
+
+
+<h1>Diversified Perfection</h1>
+<div class="container contentCountainer">
+   <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+         <h3>PO BOX 2772 Humble,TX 77346</h3>
+      </div>
+      <div class="col-sm-6 col-sm-offset-3">
+         <h3> 281-297-8189</h3>
+      </div>
+   </div>
+
+</div>
+
+
+<div class="container contentCountainer" id="contact">
+<h1>Contact</h1>
+    <div class="row">
+
+<div class="col-sm-6 col-sm-offset-3">
+
+    <h3>Send me a message</h3>
+    <form role="form" id="contactForm" action="index2.php" method="POST">
+     <div class="row">
+            <div class="form-group col-sm-6">
+                <label for="name" class="h4">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter name" required>
+            </div>
+            <div class="form-group col-sm-6">
+                <label for="email" class="h4">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="message" class="h4 ">Message</label>
+            <textarea id="message" class="form-control" rows="5" placeholder="Enter your message" required></textarea>
+        </div>
+        <button type="submit" id="form-submit" class="btn btn-primary btn-lg pull-right ">Submit</button>
+<div id="msgSubmit" class="h3 text-center hidden">Message Submitted!</div>
+    </form>
+</div>
+</div>
+</div>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="javascript/homeless.js"></script>
+</body>
+</html>

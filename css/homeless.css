@@ -1,0 +1,27 @@
+.navbar-brand{
+  font-size: 1.8em
+}
+
+#topContainer{
+  
+  height: 481px;
+  width: 720px;
+  
+
+}
+
+h1{
+  text-shadow: 2px 2px grey;
+  text-align: center;-
+}
+
+
+
+.contentContainer{
+	margin-top: 100px;
+}
+
+
+h3{
+	text-align: center;
+}
